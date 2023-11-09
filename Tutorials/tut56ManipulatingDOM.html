@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipualting DOM</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    #main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(214, 236, 255);
+        height: 3rem;
+    }
+/* 
+    .container {} */
+
+    #main li {
+        list-style-type: none;
+        text-decoration: none;
+        margin: 5px 20px;
+        padding: 5px;
+    }
+</style>
+
+<body>
+    <ul id="main" class="container">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+    </ul>
+    <script>
+        let main = document.getElementById('main');
+        console.log(main);
+        let nav = document.getElementById('nav');
+        console.log(nav);
+
+        let containers = document.getElementsByClassName('container');
+        console.log(containers);
+
+        // let sel = document.querySelector('#nav>li');
+        // console.log("Selector returns ", sel)
+
+        let sel = document.querySelectorAll('#nav>li');
+        console.log("Selector returns ", sel)
+    </script>
+</body>
+
+</html>

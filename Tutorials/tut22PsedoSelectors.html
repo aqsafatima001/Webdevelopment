@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PseudoSelectors and Buttons</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<style>
+    .container{
+        border: 3px solid black;
+        background-color: lightpink;
+        margin: 34px auto;
+        padding: 34px ;
+        width: 400px;
+    }
+    a{
+        text-decoration: none;
+    }
+    a:hover{
+        color: black;
+        background-color:  rgb(233, 165, 165) ;
+        border: 1px solid black;
+    }
+    a:active{
+        background-color: aqua;
+    }
+    .btn{
+        color: white;
+        background-color: rgb(148, 0, 0);
+        padding: 6px;
+        border: none;
+        cursor: pointer;
+        font-size: 12px;
+        border-radius: 4px;
+        font-family: 'Dancing Script', cursive;
+    }
+</style>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam voluptatibus quas temporibus nihil exercitationem, illum eius aut ipsa? At enim doloribus dicta ex facere sint commodi, quia fugit nulla, earum, illo ducimus corporis laboriosam! Esse cum dolore sit placeat quae!</p>
+        <a href="https://google.com" class="btn" >Read More</a>
+        <button class="btn">Contact Us</button>
+    </div>
+</body>
+</html>

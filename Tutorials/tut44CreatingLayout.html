@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creating Layout Using Grid</title>
+</head>
+<style>
+    .container {
+        display: grid;
+        grid-gap: 1rem;
+        grid-template-areas:
+            'navbar navbar navbar navbar'
+            'section section section aside'
+            'footer footer footer footer';
+
+    }
+    .item {
+        background-color: yellow;
+        /* border: 2px solid black; */
+    }
+
+    #navbar {
+        grid-area: navbar;
+    }
+
+    #section {
+        grid-area: section;
+    }
+
+    #aside {
+        grid-area: aside;
+    }
+
+    footer {
+        grid-area: footer;
+        background: black;
+        /* color: white; */
+        margin: 3px 3px;
+        padding: 7px 7px;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item" id="navbar">
+            Home AboutUs ContactUs
+        </div>
+        <div class="item" id="section">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi ex quod
+            repellendus iste deserunt nemo, pariatur illum atque similique quidem quam ab distinctio! Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Repellendus quae expedita ea dolore sequi odit non omnis, earum optio
+            numquam rerum saepe labore culpa cupiditate libero accusantium qui dicta. Consequuntur recusandae
+            accusantium perferendis vel in exercitationem quo beatae voluptates libero, magni voluptatum nemo distinctio
+            ratione, modi molestiae a facilis ab nesciunt esse. Earum ad consequatur officiis harum quos a optio quia
+            expedita temporibus, accusantium magni deleniti totam accusamus reprehenderit porro at aliquid, sunt rem
+            nisi dolorum, sint quam necessitatibus illo. Expedita odit soluta tenetur in aperiam reiciendis maiores,
+            sunt porro deserunt ipsum perferendis velit nesciunt. Aliquid nostrum odio exercitationem! Debitis quidem
+            cum dignissimos quasi iusto similique qui blanditiis facilis officia et nihil, corrupti voluptatem ducimus
+            at ea mollitia eligendi voluptatibus magni amet laborum quaerat quo voluptate reprehenderit tenetur. Enim
+            rerum illum facilis. Illo ab facilis earum asperiores molestias officia totam velit dicta perferendis. Saepe
+            iure nulla adipisci sit tempore dignissimos natus nesciunt inventore porro laudantium perferendis magni
+            debitis nostrum nam quis, quod accusamus deserunt fugit exercitationem impedit minima voluptates! Minima
+            veritatis a blanditiis sequi est aperiam quis quam vitae officiis. Nisi, tempore reiciendis quo dolor ipsa
+            asperiores delectus ea explicabo sequi ipsam, quisquam ipsum corporis odit blanditiis! Porro vitae
+            recusandae saepe repellendus accusantium ratione, commodi architecto omnis. Consectetur qui esse quis nisi
+            unde aspernatur asperiores, culpa dolores explicabo magnam iste consequatur id excepturi amet earum. Rem ut,
+            eligendi harum at quas tenetur, illo voluptate omnis labore saepe aliquam, numquam asperiores. Eum
+            repellendus dolores tempore fuga dicta esse, eaque perspiciatis excepturi iusto doloremque assumenda quas
+            laudantium provident et blanditiis, corrupti iste facilis odio suscipit velit porro? Recusandae commodi
+            autem voluptatum ex explicabo consequuntur repellendus totam sit adipisci, eum, similique veniam ipsa sed
+            quos eos, ducimus illo a nihil aperiam? Voluptatem maiores quis quas optio eum officiis ipsum minima
+            doloremque. Error culpa illum, autem, illo dolor repudiandae deleniti rem sunt quod eaque ipsum ullam!
+            Veniam asperiores doloribus autem a commodi animi repellat illo praesentium, quaerat libero iste totam! Sed
+            ipsam itaque et facilis hic ipsum esse sit iure modi consequatur officia eius, quasi quo ullam pariatur
+            culpa repellat possimus nobis suscipit magni error sunt veritatis voluptatum assumenda. Inventore quibusdam
+            atque odio voluptas veritatis officiis, ipsa provident aliquam nostrum illum illo quaerat mollitia voluptate
+            ipsam maiores, quis ratione fugiat! Eligendi error nam consequatur, voluptatibus dignissimos molestiae
+            tempore minus neque ullam vel non praesentium aut architecto ipsum ab sunt. Eos obcaecati ut optio officiis!
+        </div>
+        <div class="item" id="aside">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati vero quod nemo.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, incidunt! Officia iste illum nemo ratione
+            numquam amet libero deleniti atque velit ad. Omnis, veniam animi similique nostrum officia nobis aspernatur,
+            repellat ipsa obcaecati voluptate architecto accusamus inventore enim eligendi dolore cupiditate velit
+            commodi ullam. In odio reiciendis perferendis odit quo vero, eveniet laudantium veritatis labore totam
+            obcaecati, tempora quos? Assumenda ab voluptatibus eveniet rerum placeate soluta?</div>
+
+        <footer class="item">
+            <div>
+                copyright &copy; www.MyOnlineMeal.com. All rights Reserved
+            </div>
+        </footer>
+        <!-- <div class="item">Item-1</div>
+        <div class="item">Item-2</div>
+        <div class="item">Item-3</div>
+        <div class="item">Item-4</div>
+        <div class="item">Item-5</div>
+        <div class="item">Item-6</div>
+        <div class="item">Item-7</div>
+        <div class="item">Item-8</div>
+        <div class="item">Item-9</div>
+        <div class="item">Item-10</div>
+        <div class="item">Item-11</div>
+        <div class="item">Item-12</div>
+        <div class="item">Item-13</div>
+        <div class="item">Item-14</div> -->
+    </div>
+</body>
+
+</html>

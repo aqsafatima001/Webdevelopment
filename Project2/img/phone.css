@@ -1,0 +1,52 @@
+/* Navigation */
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+ }
+/* Home section */
+#home{
+    
+}
+
+#home::before{
+   
+}
+
+#home p{
+    
+}
+
+/* Services section  */
+#services{
+   flex-direction: column;
+}
+
+#services .box { 
+   
+}
+
+/* Clients section */
+#clients{
+    overflow: hidden;
+    
+}
+
+#clients img{
+
+}
+
+/* Contact us section */
+#contact-box form{
+   
+}
+/* Footer */
+
+/* Utility classes */
+.h-primary{
+
+}
+.btn{
+
+}

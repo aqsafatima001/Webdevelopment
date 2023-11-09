@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap" rel="stylesheet">
+</head>
+<style>
+    body {
+        background-color: #26424B;
+        /* color: white; */
+    }
+
+    .head {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .head div img {
+        width: 100px;
+        height: 80px;
+        filter: invert();
+    }
+
+    .head div h1 {
+        color: aliceblue;
+        font-family: 'Bungee Inline', cursive;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    li {
+        display: inline;
+        list-style: none;
+        margin: 3px 4px;
+        padding: 3px 4px;
+    }
+
+    li a {
+        color: #FDAE38;
+        text-decoration: none;
+        margin: 3px;
+        padding: 3px;
+        font-size: 1.2rem;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    li a:hover {
+        background-color: #59b4b6;
+        color: white;
+        border-radius: 8px;
+        margin: 3px;
+        padding: 5px;
+    }
+
+    .sec {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        background-image: url("background.jpg");
+        height: 400px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .sec h1 {
+
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .box {
+        /* border: 2px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* background-color: #000000; */
+        height: 200px;
+        width: 600px;
+    }
+
+    .box span {
+        display: block;
+        font-size: 56px;
+        text-shadow: 2px 2px black;
+    }
+    footer{
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* background-color: black; */
+        color: white;
+    }
+</style>
+
+<body>
+    <header class="head">
+        <div class="logo">
+            <img src="logo.png" alt="error 404">
+        </div>
+        <div>
+            <h1>SHOOTZ</h1>
+        </div>
+    </header>
+    <nav class="navbar">
+        <ul>
+            <li class="item"><a href='home.html'>HOME</a></li>
+            <li class="item"><a href="about.html">ABOUT</a></li>
+            <li class="item"><a href="services.html">SERVICES</a></li>
+            <li class="item"><a href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <section class="sec">
+        <!-- <img src="background.jpg" alt=""> -->
+        <div class="box">
+            <span>GET BEST IMAGES AT</span>
+            <span>SHOOTZ</span>
+        </div>
+    </section>
+
+    <footer>
+        <div>
+            copyright&copy; at photographystudio.com 
+        </div>
+    </footer>
+</body>
+
+</html>

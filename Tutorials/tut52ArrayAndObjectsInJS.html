@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array and Objects in JAvaScript</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        color: white;
+    }
+    .navbar {
+        padding: 20px 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar span {
+        margin: 4px 10px;
+        padding: 8px 8px;
+        background-color: rgb(223, 223, 223);
+        border: 1px solid black;
+        border-radius: 10px;
+        font-size: 20px;
+        color: black;
+    }
+    .navbar span:hover{
+        background-color: red;
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+    .box {
+        padding: 50px 20px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <div class="navbar">
+    <span>home</span>
+    <span>about us</span>
+    <span>Contact Us</span>
+    <span>Services</span>
+    </div>
+    <div class="container">
+        <div class="box">
+            <h1>
+                Array and Objects in JavaScript
+            </h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero temporibus dolore excepturi impedit
+                dignissimos optio ullam accusamus et velit, incidunt totam rerum cumque, eius enim quidem porro
+                necessitatibus mollitia commodi. Nihil facilis delectus obcaecati, dolorem non quam adipisci iure?
+            </p>
+        </div>
+    </div>
+
+    <!-- Writing our JavaScript code here -->
+    <script>
+        let myVar = 34;
+        let myVar2 = "string";
+        let myVar3 = true;
+        let myVar4 = null;
+        let myVar5 = undefined;
+
+        // let employee = {
+        //     name: "Harry",
+        //     salary: 10,
+        //     channel: "CodeWithHarry",
+        //     "channel 2": "ProgrammingWithHarry",
+        // }
+        // console.log(employee);
+
+        // let names = [1, 2, 4, "Harry", undefined];
+        // let names = new Array(41, 2, 4, "Harry", undefined);
+        let names = new Array(23);
+        console.log(names.length);
+        names = names.sort();
+        names.push("this is pushed");
+        console.log(names);
+    </script>
+</body>
+
+</html>

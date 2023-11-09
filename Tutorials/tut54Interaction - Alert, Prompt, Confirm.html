@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interaction - Alert, Prompt, Confirm</title>
+</head>
+<style>
+    .container{
+        display: flex;
+        flex-direction: column;
+        background-color: antiquewhite;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-size: 2rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    p{
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>JavaScript tutorial: Interaction - Alert, Prompt, Confirm</h1>
+        <div class="box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis non ratione maiores, suscipit reiciendis aspernatur rerum reprehenderit a, alias numquam in aperiam sequi quo beatae magnam asperiores officia porro quasi, officiis doloremque iure earum voluptatum! Nisi beatae magnam odio distinctio?</p>
+        </div>
+    </div>
+    <script>
+        // alert in browser - Does not return anything 
+        // alert("This is a message")
+
+        // let name = prompt("What is Your Name?" , "Guest")
+        // console.log(name)
+
+        let deletePost = confirm("Do you really want to delete this Post!?")
+        // console.log(deletePost)
+        if(deletePost){
+            console.log("Your post has been successfully deleted")
+        }
+        else{
+            console.log("Your post has not been deleted")
+
+        }
+
+    </script>
+</body>
+</html>

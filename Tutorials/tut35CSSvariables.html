@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables / Custom properties</title>
+    <style>
+        :root{
+            --BoxColor: aqua; 
+
+        }
+        .container{
+            display: flex;
+        }
+        .box{
+            height: 200px;
+            width: 200px;
+            border: 2px solid rebeccapurple;
+            background-color: var(--BoxColor);
+            margin: 2px 10px;
+            box-shadow: 3px 3px 10px var(--BoxColor);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">This is box 1</div>
+        <div class="box">This is box 2</div>
+        <div class="box">This is box 3</div>
+    </div>
+</body>
+</html>

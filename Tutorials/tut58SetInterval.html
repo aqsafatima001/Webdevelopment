@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set Interval Set Time Out</title>
+</head>
+
+<body>
+    <div class="container">
+        This is a container
+    </div>
+    <script>
+        console.log("This is tutorial 58");
+
+        // SetTimeOut--> Allows to run the function once AFter a Certain interval of time 
+        // ClearTimeOut--> Allows to run the function reapeatedly AFter a Certain interval of time 
+
+
+        // setTimeout:
+        function greet(name) {
+            console.log("Halloo GOOD MORNING " + name);
+        }
+
+        TimeOut = console.log("Halloo GOOD MORNING " + name);
+        console.log(TimeOut);
+        setTimeout(greet, 5000, "Aqsa");
+
+        // setTimeout(greet(), 5000,"Aqsa"); Wrong way because it is calling function inside srtTime Out 
+
+        //clearTimeout:
+        // clearTimeout(timeOut);
+
+        // setTimeout(greet(), 12000); --> Wrong as it is calling the function inside setTimeout
+
+        // intervalId = setInterval(greet, 1000, "Harry", "Good Night");
+        // clearInterval(intervalId);
+
+        function displayTime() {
+            time = new Date();
+            console.log(time);
+            document.getElementById('time').innerHTML = time;
+        }
+        setInterval(displayTime, 1000);
+
+
+    </script>
+</body>
+
+</html>
